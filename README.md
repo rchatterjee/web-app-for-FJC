@@ -55,10 +55,10 @@ The AngularJS part is running on "localhost:4200"
 
 All files inside "angular-src" folder are for front end in AngularJS.  
 Files in "public pages" are our front end in HTML, CSS.  
-package.json includes depencies.  
-node_modules includes installed modules that we need to use for this project.  
-•	app.js includes the information of 
-•	Routes includes routes for u  
+* package.json includes depencies  
+* node_modules includes npm installed modules that we need to use for this project  
+* app.js includes the information of setting up node application  
+* config folder includes static information of database and passport that is used for user authentification  
 
 **If you have any questions:**  
 
