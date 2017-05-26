@@ -6,8 +6,9 @@ The goal of our OCDV project is to develop a web-app deployed on AWS. The techni
   
 Currently, we have already implement a template front end design and a backend for register and login functions. As for the front end design, it is only basic HTML and CSS. For our backend, we implemented it in Node.js with Express and MongoDB, also we have a simple front end written in AngularJS.
   
-Front End:  
-Back End:  
+_Front End:_  
+
+_Back End:_  
 According to what we get from Family Justice Center (FJC), we have implemented a completed register, login and authenticate functions, where the user information will be written into MongoDB "mongodb://localhost:27017/meanauth". For now we only ask for users' email, name and password (which has been encrypted for security reason).  
 
 Also, for each user, we have design profile, dashboard pages for them, the details of which have not been implemented. Before login, users cannot see the buttons of "Profile", "Dashboard" and "Logout"; after they login, they cannot see "Register" and "Login" buttons.  
