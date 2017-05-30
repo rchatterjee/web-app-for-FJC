@@ -69,6 +69,6 @@ Files in "public pages" are our front end in HTML, CSS.
 
 **If you have any questions:**  
 
-For Front end: yj334@cornell.edu  
-For Back end: mz468@cornell.edu  
-
+For Front end: yj334@cornell.edu [Yan Jiang]  
+For Back end: mz468@cornell.edu [Mengjiao(Molly) Zhu]  
+For More Information: sio7@cornell.edu [Suzie-May I.A.M Ogunseitan]
