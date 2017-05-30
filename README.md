@@ -6,8 +6,13 @@ The goal of our OCDV project is to develop a web-app deployed on AWS. The techni
   
 Currently, we have already implement a template front end design and a backend for register and login functions. As for the front end design, it is only basic HTML and CSS. For our backend, we implemented it in Node.js with Express and MongoDB, also we have a simple front end written in AngularJS.
   
-Front End:  
-Back End:  
+_Front End:_  
+Our front end design is cuurently implemented in HTML/CSS and pure Javascript, no advance framework is being used. For now, our interface design contains mainly two parts, 1) The information pages that provide various resources and information that users might need, including locations of Family Justice Centers, testimonials, technology tips for using the app safely, etc. 
+2) The OCDV portal that users can log in, upload and manage their records of incidences, evidences of being abused, and keep track of their court days, etc.
+
+We are also working on a new design with improved user experience. This version is currently in prototype. Please contact Yan (yj334@cornell.edu) for more information.
+
+_Back End:_  
 According to what we get from Family Justice Center (FJC), we have implemented a completed register, login and authenticate functions, where the user information will be written into MongoDB "mongodb://localhost:27017/meanauth". For now we only ask for users' email, name and password (which has been encrypted for security reason).  
 
 Also, for each user, we have design profile, dashboard pages for them, the details of which have not been implemented. Before login, users cannot see the buttons of "Profile", "Dashboard" and "Logout"; after they login, they cannot see "Register" and "Login" buttons.  
@@ -36,7 +41,9 @@ We will have more user interaction functions which need to discussed with FJC.
 **What Interns could do:**  
  
 *For front end:*  
- 
+1.	You could try to improve and finish our new interface design based on the feature lists and user stories.
+2.  You could try to implement the new prototype basing on our previous implementation in AngularJS, but with layouts revised and more features added. 
+
 *For back end:*  
 
 1.	You could try to make our front end in an angular form and plant our front end to our backend.  
@@ -55,10 +62,10 @@ The AngularJS part is running on "localhost:4200"
 
 All files inside "angular-src" folder are for front end in AngularJS.  
 Files in "public pages" are our front end in HTML, CSS.  
-package.json includes depencies.  
-node_modules includes installed modules that we need to use for this project.  
-•	app.js includes the information of 
-•	Routes includes routes for u  
+* package.json includes depencies  
+* node_modules includes npm installed modules that we need to use for this project  
+* app.js includes the information of setting up node application  
+* config folder includes static information of database and passport that is used for user authentification  
 
 **If you have any questions:**  
 
