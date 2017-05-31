@@ -49,6 +49,20 @@ We will have more user interaction functions which need to discussed with FJC.
 1.	You could try to make our front end in an angular form and plant our front end to our backend.  
 2.	You could try to implement either functions mentioned above based on your interests. If you don't have preference, my suggestion would be "4. Escape function"  
 
+**Install**  
+
+*For Front End:*  
+Open "public pages" folder and click "index.html" and then you could go through our design.  
+
+*For Back End:*  
+You only need to install node.js and mongodb for demo, might need install Angular for development.  
+
+* Node.js(combined with npm):  
+Download from https://nodejs.org/en/ and follow the instructions. Input "npm -v" and "node --version" to test if successfully installed.  
+
+* MongoDB:  
+The official document https://docs.mongodb.com/master/tutorial/install-mongodb-on-os-x/?_ga=2.37070693.478285941.1496194274-1542108123.1491759084  
+
 **Run:**  
 
 1.	Enter into "test_meanstack" folder  
