@@ -1,5 +1,5 @@
 # web-app-for-FJC
- 
+
 The goal of our OCDV project is to develop a web-app deployed on AWS. The technique stack is MEAN Stack, which represents for  "MongoDB", "Express", "AngularJS" and  "Node.js".
 
 **What we have:**  
