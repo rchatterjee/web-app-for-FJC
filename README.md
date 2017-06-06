@@ -49,7 +49,7 @@ We will have more user interaction functions which need to discussed with FJC.
 1.	You could try to make our front end in an angular form and plant our front end to our backend.  
 2.	You could try to implement either functions mentioned above based on your interests. If you don't have preference, my suggestion would be "4. Escape function"  
 
-**Install**  
+**Install:**  
 
 *For Front End:*  
 Open "public pages" folder and click "index.html" and then you could go through our design.  
@@ -66,10 +66,12 @@ The official document https://docs.mongodb.com/master/tutorial/install-mongodb-o
 **Run:**  
 
 1.	Enter into "test_meanstack" folder  
-2.	Run "node app" in terminal  
-3.	Enter into "angular-src" folder  
-4.	Use another terminal window to run "ng serve"  
-5.	The node.js part is running on "localhost:3000",  
+2.  Run "sudo mongod" in terminal  
+3.  Open a new terminal and run "mongo"  
+4.	Open another terminal and run "node app"  
+5.	Enter into "angular-src" folder  
+6.	Use another terminal window to run "ng serve"  
+7.	The node.js part is running on "localhost:3000"  
 The AngularJS part is running on "localhost:4200"  
 
 **Explanation of this github repository:**  
