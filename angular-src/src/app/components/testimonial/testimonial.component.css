@@ -1,0 +1,155 @@
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+ h1{
+    font-size: 25px;
+    font-family: 'verdana';
+    font-variant: small-caps;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align:center;
+}
+h3{
+    font-size: 15px;
+    font-family: 'verdana';
+    font-variant: small-caps;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align:center;
+     }
+ body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:20px;
+  /*  text-align: justify;
+    text-justify: inter-word;*/
+  }
+.head-line {
+    font-weight:600;
+    text-align:center;
+    text-transform:uppercase;
+    font-style: 'verdana';
+    font-size:45px;
+    color: white;
+   }
+.just-sec {
+    padding-top:50px;
+    padding-bottom:70px;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+/* =============================================================
+    PAGE STYLES
+ ============================================================ */
+.below-slideshow {
+    color:#fff;
+    background:#281f3f;
+    padding-bottom:5px;
+    
+}
+    .below-slideshow i {
+        /*padding-bottom:15px;*/
+    }
+    .below-slideshow .txt-block{
+      padding-top: 1px;
+    }
+    .below-slideshow .txt-block h2 {
+      text-align: center;
+      /*color: #fff;*/
+
+    }
+    a.whitelink a:link{
+      color: #fff;
+    }
+     .below-slideshow h4 {
+        font-weight:800;
+        font-size:20px;
+    }
+    .below-slideshow p {
+        padding-right:30px;
+    }
+.tag-home {
+    padding-top:50px;
+    padding-bottom:30px;
+    font-size:40px;
+    text-align:center;
+    line-height:45px;
+    color: #666666;
+
+}
+.parallax-like {
+margin-top: 20px;
+margin-bottom: 20px;
+/*background: url(../img/par.jpg) no-repeat center center;*/
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+color: #fff;
+background-attachment: fixed;
+}
+    .parallax-like .overlay {
+        min-height:200px;
+        background: rgba(15, 15, 15, 0.66);
+        font-size:50px;
+        
+        
+    }
+    .vedio-style {
+border: 0px;
+width: 100%;
+min-height: 300px;
+}
+.just-sec {
+    padding-top:50px;
+    padding-bottom:70px;
+}
+
+.hands{
+  padding-top: 35px; 
+  border-radius: 200px;
+  opacity: 0.9;
+}
+.hands1{
+  /*padding-top: 35px; */
+  opacity: 0.9;
+  height: 200px;
+  /*width: 200px;*/
+  padding-left: 200px;
+  border-radius: 20px;
+
+}
+.set-div {
+    border:1px solid #01a2a6;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+}
+.footer-sec {
+    margin-top:50px;
+    padding-top:30px;
+    color:#000;
+    background:#fff;
+    /*background:#01a2a6;*/
+    padding-bottom:20px;
+    
+}
+.flexslider {
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
+     -moz-box-shadow: 0 0px 0px rgba(0,0,0,0);
+    -o-box-shadow: 0 0px 0px rgba(0,0,0,0);
+    box-shadow: 0 0px 0px rgba(0,0,0,0);
+}
+.social-div a,a:hover{
+    color:#fff;
+    text-decoration:none;
+}
+.set-about-img {
+    border:10px double #ffa296;
+     max-height:200px;
+}
