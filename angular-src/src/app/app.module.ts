@@ -53,7 +53,6 @@ const appRoutes: Routes = [
     TipsComponent,
     PrepareComponent,
     FaqComponent,
-    bronx
   ],
   imports: [
     BrowserModule,
