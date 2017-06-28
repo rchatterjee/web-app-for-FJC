@@ -16,11 +16,13 @@ import {AuthService} from './services/auth.service';
 import {FlashMessagesModule} from 'angular2-flash-messages';
 import {AuthGuard} from './guards/auth.guard';
 import { ServiceOfferedComponent } from './components/service-offered/service-offered.component';
-import { TourComponent } from './components/tour/tour.component';
+import { TourComponent } from './components//tour/tour.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { TipsComponent } from './components/tips/tips.component';
 import { PrepareComponent } from './components/prepare/prepare.component';
 import { FaqComponent } from './components/faq/faq.component';
+import { TourComponent } from './components//bronx/tour.component';
+
 
 const appRoutes: Routes = [
   {path:'', component: HomeComponent},
@@ -33,7 +35,8 @@ const appRoutes: Routes = [
   {path:'testimonial', component: TestimonialComponent},
   {path:'tips', component: TipsComponent},
   {path:'prepare', component: PrepareComponent},
-  {path:'faq', component: FaqComponent}
+  {path:'faq', component: FaqComponent},
+  {path: 'bronx', component: TourComponent},
 
 ]
 
@@ -51,7 +54,8 @@ const appRoutes: Routes = [
     TestimonialComponent,
     TipsComponent,
     PrepareComponent,
-    FaqComponent
+    FaqComponent,
+    bronx
   ],
   imports: [
     BrowserModule,
