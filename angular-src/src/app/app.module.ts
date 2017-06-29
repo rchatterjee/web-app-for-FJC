@@ -21,7 +21,6 @@ import { TestimonialComponent } from './components/testimonial/testimonial.compo
 import { TipsComponent } from './components/tips/tips.component';
 import { PrepareComponent } from './components/prepare/prepare.component';
 import { FaqComponent } from './components/faq/faq.component';
-import { TourComponent } from './components//bronx/tour.component';
 
 
 const appRoutes: Routes = [
@@ -36,7 +35,6 @@ const appRoutes: Routes = [
   {path:'tips', component: TipsComponent},
   {path:'prepare', component: PrepareComponent},
   {path:'faq', component: FaqComponent},
-  {path: 'bronx', component: TourComponent},
 
 ]
 
@@ -55,7 +53,6 @@ const appRoutes: Routes = [
     TipsComponent,
     PrepareComponent,
     FaqComponent,
-    bronx
   ],
   imports: [
     BrowserModule,

@@ -1,25 +1,7 @@
-<head> 
-<script>       
-        (function exit(){
-        if (document.getElementById('button').clicked == true){
 
-            window.open("http://weather.com", "_blank");
-
-            window.location.replace(url);
-        }
-    });
-</script>
-</head>
-
-
-        <a id =escape target="Escape" target="_blank"  href="http://google.com">
+        <!-- <a id =escape target="Escape" target="_blank"  href="http://google.com">
         <h4> Escape</h4>
-        </a>
-
-        <form>
-        <!-- why is exit not defined -->
-        <input id='button' type="submit" name="button" value="Enter" onclick= "exit"/></form>
-
+        </a> -->
 
 <nav class="navbar navbar-default">
       <div class="container">
@@ -49,7 +31,7 @@
 
             <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['login']">Login</a></li>
             <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['register']">Register</a></li>
-            <li> <a href ="http://allrecipes.com/recipe/10549/best-brownies/">Escape</a></li>
+            <li> <a id = escape  target= "Escape" target="_blank" href ="http://allrecipes.com/recipe/10549/best-brownies/">Escape</a></li>
             <li *ngIf="authService.loggedIn()"><a (click)="onLogoutClick()" href="#">Logout</a></li>
           </ul>
         </div><!--/.nav-collapse -->
