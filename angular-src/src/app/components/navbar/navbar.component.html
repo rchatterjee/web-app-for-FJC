@@ -1,4 +1,4 @@
-<html ng-app = "OCDV">
+<div ng-app = "OCDV">
 <nav class="navbar navbar-default">
       <div class = "container" ng-controller = "MainController">
         <div class="navbar-header">
@@ -9,8 +9,15 @@
             <span class="icon-bar"></span>
           </button>
         </div>
+        <div ng-init = "HELLO ='World'">
+        <h3> {{ HELLO }} </h3>
+        </div>
+
+
+
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-left">
+            
             <li [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['/']">Home</a></li>
             <li [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['service_offered']">Service Offered</a></li>
             <li [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['tour']">FJC Virtual Tour</a></li>
@@ -28,13 +35,18 @@
             <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['login']">Login</a></li>
             <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['register']">Register</a></li>
             <!-- new button-->
-            <li><button type= "button" ng-click="exit();" class= "btn btn-link"> Escape_2</button></li>
-            <li> <a id = escape  target= "Escape" target="_blank" onClick = "window.location.replace(bing.com)" href = "http://allrecipes.com/recipe/10549/best-brownies/">Escape</a></li> 
+          <!--   <li><button type= "button" ng-click="exit();" class= "btn btn-link"> Escape_2</button></li> -->
+            <li> <a id = escape  target= "Escape" target="_blank" onClick = "exit()" href = "http://allrecipes.com/recipe/10549/best-brownies/">Escape</a></li>
+            <li> <a id = escape  target= "Escape" target="_blank" onClick = "exit()" >Escape</a></li>
+
             <li *ngIf="authService.loggedIn()"><a (click)="onLogoutClick()" href="#">Logout</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
 </nav>
-</html>
+</div>
 
+<!-- referencce to angular -->
+<script src= "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<!-- referencce to source file, where modules are defined -->
 <script src= "navbar.js"></script>

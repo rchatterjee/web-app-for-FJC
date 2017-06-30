@@ -1,16 +1,18 @@
+<!-- <div id="slideshow-sec"> -->
+        <div id="carousel-div" class="carousel slide" data-ride="carousel" >
 
-<a href="google.html" target="_top">test link</a> 
-
-
-      <div class="carousel-inner">
-          <div class="item active">
+                    <div class="carousel-inner">
+                        <div class="item active">
 
               <img src="../../../assets/img/tt2.jpg" alt="" />
 
           </div>
 
             </div>
+            </div>
+            <h1> {{ caption }} </h1>
           
+      
                    
 <br>
 <div class="below-slideshow">
@@ -18,26 +20,17 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="txt-block">
-
-
-                <i class="fa fa-users fa-4x"></i>
-
-                  <h4>Your Virtual Ally</h4>
-                  <p >
-                    At the click of a button, get answers to all of your questions, tips on how to safely use technology, and information on the resources available to you.
-
-                  </p>
-                      </div>
+                  <i class="fa fa-users fa-4x"></i>
+                    <h4> {{ subCaptionOne }} </h4>
+                    <p> {{ detailOne }} </p>
+                </div>
             </div>
+
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="txt-block">
-
-
                 <i class="fa fa-home fa-4x"></i>
-                  <h4>Your Safe Harbor</h4>
-                  <p >
-                    Services are free and available to all victims. You can get help regardless of your immigration status or the language you speak.
-                  </p>
+                  <h4> {{ subCaptionTwo }} </h4>
+                  <p> {{ detailTwo }} </p>
                       </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -50,18 +43,13 @@
 
                 <i class="fa fa-gtip fa-4x"></i>
 <!-- >>>>>>> origin/master -->
-                  <h4>Walk-ins Welcome</h4>
-                  <p >
-                    Our door is always open for you,no appointment necessary. When you feel ready, simply walk in anytime, Monday through Friday, between 9:00 a.m. - 5:00 p.m.
-                  </p>
-                      </div>
+                  <h4> {{ subCaptionThree }} </h4>
+                  <p> {{ detailThree }} </p>
+                </div>
             </div>
         </div>
-
+       </div>
     </div>
-    </div>
-
-
 
 
     <div class="footer-sec">
@@ -69,8 +57,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 
-
-                  <h3> <strong>ABOUT COMPANY</strong> </h3>
+         <h3> <strong> {{ footerOne }} </strong> </h3>
                   <!-- <p style="padding-right:50px;" >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis felis dolor vitae.
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis felis dolor vitae.
@@ -80,7 +67,7 @@
 
 
 
-                    <h3> <strong>SOCIAL PRESENCE</strong> </h3>
+                    <h3> <strong> {{ footerTwo}}</strong> </h3>
                <!--  We love to be social,Catch Us On
                 <a href="#" ><h4>FACEBOOK </h4></a>
                    <a href="#" ><h4>TWITTER </h4></a>
@@ -89,7 +76,7 @@
 
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <h3> <strong>PHYSICAL LOCATION</strong> </h3>
+            <h3> <strong>{{ footerThree }}</strong> </h3>
                <!--  Reach Us Below:
                 <br />
                 <h4>90/567, Raw Street Lane,</h4>
@@ -107,6 +94,9 @@
     </div>
     </div>
        </div>
+       </div>
+      
+   
      <!--FOOTER SECTION END-->
       <!-- WE PUT SCRIPTS AT THE END TO LOAD PAGE FASTER-->
 
@@ -130,4 +120,6 @@
     <script src="assets/js/custom.js"></script>
     <!-- JS script -->
     <script src="home.js"></script>
+    <!-- referencce to angular -->
+    <script src= "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 	

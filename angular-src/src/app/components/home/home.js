@@ -1,4 +1,7 @@
-$(function()
-{
-     $("A").attr("target","_top");
-}); 
+angular.module ('Homepg',[])
+
+	//controller
+	.controller('MainController', function($scope){
+
+
+	});
