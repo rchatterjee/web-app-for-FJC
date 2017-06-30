@@ -28,7 +28,7 @@
             <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['login']">Login</a></li>
             <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['register']">Register</a></li>
             <!-- new button-->
-            <li><button type= "button" ng-click="getAway();" class= "btn btn-link"> Escape_2</button></li>
+            <li><button type= "button" ng-click="exit();" class= "btn btn-link"> Escape_2</button></li>
             <li> <a id = escape  target= "Escape" target="_blank" onClick = "window.location.replace(bing.com)" href = "http://allrecipes.com/recipe/10549/best-brownies/">Escape</a></li> 
             <li *ngIf="authService.loggedIn()"><a (click)="onLogoutClick()" href="#">Logout</a></li>
           </ul>
