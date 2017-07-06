@@ -34,10 +34,12 @@ export class NavbarComponent implements OnInit {
   	return false;
   };
 
-   exit(){
+  exit(){
+    window.open("http://weather.com", "_newtab");
+    window.location.replace('http://google.com');
 
-    location.replace ("www.google.com");
+  };
 
-  }
+
 }
 

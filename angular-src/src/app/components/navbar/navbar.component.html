@@ -34,11 +34,9 @@
             <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['register']">Register</a></li>
             <!-- new button-->
           <!--   <li><button type= "button" ng-click="exit();" class= "btn btn-link"> Escape_2</button></li> -->
-            <li> <a id = escape  target= "Escape"  (click) = "exit()">Escape</a></li>
-            <!-- <li <a class="SpotDiv 1  EscapeHatchFrame" id="SpotID_5972"><div id="Cart1" class="innerCart EscapeHatch innerSpot" > 
-            <a class="targetGone external" target="_blank" title="Quick Escape1" href="http://google.com"></a></li> -->
-<!--              href = "http://allrecipes.com/recipe/10549/best-brownies/"
- -->            <li *ngIf="authService.loggedIn()"><a (click)="onLogoutClick()" href="#">Logout</a></li>
+            <li> <a id = escape  target= "Escape"  (click)= "exit()" >Escape</a></li>
+
+             <li *ngIf="authService.loggedIn()"><a (click)="onLogoutClick()" href="#">Logout</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
