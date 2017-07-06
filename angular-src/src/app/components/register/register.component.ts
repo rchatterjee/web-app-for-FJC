@@ -14,6 +14,12 @@ export class RegisterComponent implements OnInit {
 	email: String;
 	password: String;
 
+  header = 'Already have an account?';
+  subtitle = 'Create your account';
+  usernm = 'Username';
+  mail = 'Email';
+  passwrd = 'Password';
+
 //anytime when use a service in the component, we need to inject 
   constructor(private validateService: ValidateService, 
               private flashMessage: FlashMessagesService,

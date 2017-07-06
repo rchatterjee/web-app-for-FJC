@@ -13,6 +13,14 @@ export class NavbarComponent implements OnInit {
   			  private router: Router,
   			  private flashMessage: FlashMessagesService) { }
 
+  home = 'Home';
+  srvo = 'Service Offered';
+  fjc= 'FJC Virtual Tour';
+  tech = 'Tech Safety Tips';
+  testimonial = 'Testimonial';
+  prepare = 'Prepare for your visit';
+  faq = 'FAQ';
+
   ngOnInit() {
   }
 
@@ -24,6 +32,12 @@ export class NavbarComponent implements OnInit {
   	});
   	this.router.navigate(['/login']);
   	return false;
-  }
+  };
 
+   exit(){
+
+    location.replace ("www.google.com");
+
+  }
 }
+

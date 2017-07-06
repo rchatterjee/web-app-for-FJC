@@ -13,15 +13,7 @@
 
           </div>
 </div>
-<script>
-var app = angular.module("myApp", ["ngRoute"]);
-app.config(function($routeProvider) {
-    $routeProvider
-    .when("/bronx", {
-        templateUrl : "bronx.html"
-    })
-  ;
-  </script> 
+
 
      <!-- BELOW SLIDESHOW SECTION END-->
 
@@ -73,9 +65,10 @@ app.config(function($routeProvider) {
                           <br>Bus: BX1, BX2, BX6, and BX13 
 
 <!--                           <span ng-redirect-to="/tourLinks/bronx.html"> Dashboard </span>
- -->                <li [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['bronx']">Prepare for your visit</a></li>
-
+ -->        
                           <a href="#!bronx"><h4>Virtual Tour</h4></a>
+                         <li [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['bronx']"> Prepare</a></li>
+
                       </p>
 
                       <!--

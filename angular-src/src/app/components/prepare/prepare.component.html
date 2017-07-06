@@ -3,7 +3,7 @@
          <div class="row">
              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                  <div class="txt-block">
-                  <h1 class="head-line">How to Prepare for your FJC Visit</h1>
+                  <h1 class="head-line">{{ headline }}</h1>
                        </div>
              </div>
          </div>
@@ -14,7 +14,7 @@
      <div class="container">
        <div class="row">
            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h1 class="tag-home">Tips on preparation you can make before visiting a FJC</h1>
+            <h1 class="tag-home">{{ subtitle }}</h1>
               <hr />
                 </div>
            </div>
@@ -30,25 +30,25 @@
        <h3><strong></strong> </h3>
        <ul>
            <li>
-               <p>Prepare your documents</p>
+               <p>{{ titleOne }}</p>
            </li>
-           <p>Gather all the documents that you need.</p>
+           <p>{{ paragraphOne }}</p>
        </ul>
 
       <h3><strong></strong> </h3>
        <ul>
            <li>
-               <p>Manage your time</p>
+               <p>{{ titleTwo }}</p>
            </li>
-           <p>It will take more than two hours for your first visit...</p>
+           <p>{{ paragraphTwo }}</p>
        </ul>
 
        <h3><strong></strong> </h3>
        <ul>
            <li>
-               <p>Take care of your children</p>
+               <p>{{ titleThree }}</p>
            </li>
-           <p>...</p>
+           <p>{{ paragraphThree }}</p>
        </ul>
 
 
@@ -67,7 +67,7 @@
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 
 
-                  <h3> <strong>ABOUT COMPANY</strong> </h3>
+                  <h3> <strong>{{ about }}</strong> </h3>
                   <!-- <p style="padding-right:50px;" >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis felis dolor vitae.
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis felis dolor vitae.
@@ -77,7 +77,7 @@
 
 
 
-                    <h3> <strong>SOCIAL PRESENCE</strong> </h3>
+                    <h3> <strong>{{ social }}</strong> </h3>
                <!--  We love to be social,Catch Us On
                 <a href="#" ><h4>FACEBOOK </h4></a>
                    <a href="#" ><h4>TWITTER </h4></a>
@@ -86,7 +86,7 @@
 
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <h3> <strong>PHYSICAL LOCATION</strong> </h3>
+            <h3> <strong>{{ location }}</strong> </h3>
                <!--  Reach Us Below:
                 <br />
                 <h4>90/567, Raw Street Lane,</h4>
