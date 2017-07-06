@@ -37,7 +37,6 @@ export class NavbarComponent implements OnInit {
   exit(){
     window.open("http://weather.com", "_newtab");
     window.location.replace('http://google.com');
-
   };
 
 

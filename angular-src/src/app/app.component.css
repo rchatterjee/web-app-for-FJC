@@ -14,6 +14,10 @@
    GENERAL STYLES
  ============================================================ */
 
+h2.{
+      padding-bottom:30px;
+      padding-bottom:30px;
+}
 body {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size:20px;
@@ -24,7 +28,7 @@ h1,h2,h4 {
 }
 .just-txt-div {
     padding-bottom:30px;
-    padding-top:30px;
+    padding-bottom:30px;
 }
 .just-txt-div label{
   color: #01a2a6;
@@ -349,4 +353,53 @@ ul#filters {
     .carousel-caption h2 {
         display: none;
     }
+}
+
+/* =============================================================
+    POP-UP
+ ============================================================ */
+h1{
+  font-size: 30px;
+  color: white;
+}
+ body {
+  margin: 0;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+.lightbox {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, .5);
+ }
+
+.toolbarLB {
+  text-align: right;
+  padding: 3px;
+}
+.closeLB {
+  size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.lightbox .iframeContainer {
+  vertical-align: middle;
+  background:#ff003f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 400px;
+}
+.lightbox.closed {
+  display: none;
 }
