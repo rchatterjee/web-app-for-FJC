@@ -17,7 +17,7 @@ export class NavbarComponent implements OnInit {
   srvo = 'Service Offered';
   fjc= 'FJC Virtual Tour';
   tech = 'Tech Safety Tips';
-  testimonial = 'Testimonial';
+  test = 'Testimonial';
   prepare = 'Prepare for your visit';
   faq = 'FAQ';
 
@@ -37,8 +37,7 @@ export class NavbarComponent implements OnInit {
   exit(){
     window.open("http://weather.com", "_newtab");
     window.location.replace('http://google.com');
+    window.history.forward();
   };
-
-
 }
 
