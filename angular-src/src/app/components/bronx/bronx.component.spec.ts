@@ -3,7 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { BronxComponent } from './prepare.component';
+import { BronxComponent } from './bronx.component';
 
 describe('BronxComponent', () => {
   let component: BronxComponent;

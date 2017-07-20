@@ -1,17 +1,247 @@
+.container{
+
+}    
 
 
+    .grid-divider {
+        position: relative;
+        padding: 0;
+    }
+    .grid-divider>[class*='col-'] {
+        position: static;
+    }
+    .grid-divider>[class*='col-']:nth-child(n+2):before {
+        content: "";
+        border-left: 4px ridge rgba(140,69, 255,.4);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        -webkit-column-rule-style: ridge;
+        -moz-column-rule-style: ridge;
+        column-rule-style: ridge;
+    }
+    .col-padding {
+        padding: 0 15px;
+    }
+
+/*
+.container{
+  -webkit-columns: 3 90px;
+  -moz-columns: 3 90px;
+  columns: 3 90px;
+  -webkit-column-gap: 5px;
+  -moz-column-gap: 5px;
+  column-gap: 0px;
+  -webkit-column-rule-width: 3px;
+  -moz-column-rule-width: 3px;
+  column-rule-width: 9px;
+  -webkit-column-rule-color: #ffffff;
+  -moz-column-rule-color: #fff;
+  column-rule-color: #ffffff;
+  padding-top: 10px;
+}
+*/
+.container-ridge {
+  -webkit-column-rule-style: ridge;
+  -moz-column-rule-style: ridge;
+  column-rule-style: ridge;
+}
+
+/* Slideshow iner */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+
+html, body { 
+  height:100%; 
+  padding:0;
+  margin:0;
+}
+body {
+  margin: 0;
+  background: #333;
+  color:white;
+  padding: 10px;
+}
+a {
+  color:white;
+}
+* {
+  font-family: 'Droid Sans', sans-serif;
+}
+h1 {
+  margin-top: 5px;
+}
+h3 {
+  font-size:30px;
+  margin: 30px 0 10px 0;
+}
+
+.center {
+    text-align: center;
+}
+.bgimage {
+    text-align:right;
+    color:white;
+    background-size:cover;
+    height: 100%;
+    background-position: center center;
+}
+
+ul[rn-carousel] {
+    width:400px;
+    height:200px;
+    margin: 0 auto;
+}
+
+.carousel5 li {
+    width:100%;
+    height:100%;
+    font-size:30px;
+    background-color: #ccc;
+}
+
+.carousel-demo {
+    margin-top:20px;
+    display:inline-block;
+    text-align: center;
+}
+.carousel-demo-fullscreen {
+  width:100%;
+  height:100%;
+}
+.carousel-demo-fullscreen ul[rn-carousel] {
+  width:100%;
+  height:100%;
+}
+
+input.tiny {
+    width:50px;
+    text-align:center;
+}
+
+
+.carousel-demo ul[rn-carousel-transition="hexagon"] {
+  margin-left:100px;
+}
+
+.custom-indicator span {
+  transition: all 0.3s ease-in;
+}
+.custom-indicator span.active {
+  color:yellow !important;
+}
 /* =============================================================
    GENERAL STYLES
  ============================================================ */
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-size:20px;
   /*  text-align: justify;
     text-justify: inter-word;*/
     }
   p{
-    color: white;
-  }
+    color: gray;
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    text-align: center;
+    display:block;
+    padding-right:28px;
+    padding-left: 28px;
+/*    background-color: rgba(140,69, 255,.08);
+*/  }
   h1
   {
   	font-size: 50px;
@@ -23,24 +253,32 @@ body {
   }
   h3{
     font-size: 15px;
-    font-family: 'verdana';
+    font-family: 'montserrat';
     font-variant: small-caps;
     font-weight: 500;
     line-height: 1.1;
     text-align:center;
      }
   h4{
-  	color:#e9e8ed;
+  	color:rgba(116,97, 124, 1);
+    font-size: 20px;
+    text-align: center;
+  }
+
+.services-icon{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  align-content: center;
   }
 .head-line {
     font-weight:600;
     text-align:center;
     text-transform:uppercase;
     font-size:40px;
-    font-family: 'verdana';
+    font-family: 'montserrat';
     padding-bottom:120px;
-
-    color: white;
+    color: black;
 }
 .tag-home {
     padding-top:10px;
@@ -49,6 +287,7 @@ body {
     text-align:center;
     line-height:45px;
     color: #01a2a6;
+
 }
 .just-sec {
     padding-top:50px;
@@ -59,22 +298,23 @@ body {
 /* =============================================================
     PAGE STYLES
  ============================================================ */
-.below-slideshow {
+/*.below-slideshow {
     color:#4d4077;
-    background:#281f3f;
     padding-bottom:15px;
-    
+    background-color: white;
+
+
 }
     .below-slideshow i {
-        /*padding-bottom:15px;*/
     }
     .below-slideshow .txt-block{
       padding-top: 5px;
+
     }
     .below-slideshow .txt-block h2 {
       text-align: center;
 
-      /*color: #fff;*/
+
 
     }
     a.whitelink a:link{
@@ -82,12 +322,17 @@ body {
     }
      .below-slideshow h4 {
         font-weight:800;
-        font-size:20px;
-    }
-    .below-slideshow p {
-        padding-right:30px;
+        font-size: 14px;
+        text-align: center;
+        font-family: montserrat, sans-serif;
+         padding-top: 15px; 
+
 
     }
+    .below-slideshow p {
+      display: block;
+
+    }*/
 .tag-home {
     padding-top:50px;
     padding-bottom:30px;
@@ -166,6 +411,7 @@ min-height: 300px;
 .set-about-img {
     border:10px double #01a2a6;
      max-height:200px;
+     position:relative;
 }
 
 /*==========================================
@@ -267,10 +513,21 @@ min-height: 300px;
  ============================================================ */
 
 #carousel-div {
-    border:15px solid #e1e1e1;
+    border:2px solid #e1e1e1;
+    align-content: center;
+    display :block;
+    column-width: 400px;
+    background-color: #8972F5
+
+}
+
+.slideshow-sec{
+   max-width: 1000px;
+   position: relative;
+   margin: auto;
 }
 .carousel-caption {
-    top:50px;
+    top:40px;
 }
     .carousel-caption h1 {
         text-align:center;
@@ -294,6 +551,7 @@ min-height: 300px;
         max-width:340px;
         padding:15px 25px;
         }
+
 
 
 

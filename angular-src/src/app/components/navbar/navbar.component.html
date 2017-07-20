@@ -27,16 +27,20 @@
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
-            <li *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['dashboard']">Dashboard</a></li>
-            <li *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['profile']">Profile</a></li>
+            <li *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['dashboard']"
+            >{{ dashboard }}</a></li>
+            <li *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['profile']"
+            >{{ profile }}</a></li>
 
-            <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['login']">Login</a></li>
-            <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['register']">Register</a></li>
+            <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['login']"
+            >{{ login }}</a></li>
+            <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['register']"
+            >{{ register }}</a></li>
             <!-- new button-->
           <!--   <li><button type= "button" ng-click="exit();" class= "btn btn-link"> Escape_2</button></li> -->
-            <li> <a id = escape  target= "Escape"  (click)= "exit()" >Escape</a></li>
+            <li> <a id = escape  target= "Escape"  (click)= "exit()" >{{ escape }}</a></li>
 
-             <li *ngIf="authService.loggedIn()"><a (click)="onLogoutClick()" href="#">Logout</a></li>
+             <li *ngIf="authService.loggedIn()"><a (click)="onLogoutClick()" href="#">{{ logout }}</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

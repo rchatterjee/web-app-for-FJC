@@ -10,5 +10,6 @@ export class BronxComponent implements OnInit {
 	constructor() { }
 
   	ngOnInit() {
-}
+	}
+	
 }

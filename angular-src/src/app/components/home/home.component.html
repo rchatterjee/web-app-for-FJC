@@ -1,10 +1,47 @@
+<!-- <img id="image" src="/Images/1.jpg" style="width: 150px; height: 150px" />
+<br />
+<input type="button" value="Start Slide Show" (click)="startImageSlideShow()" />
+<input type="button" value="Stop Slide Show" (click)="stopImageSlideShow()" />
+<script type="text/javascript">
+    var intervalId;
+
+    function startImageSlideShow()
+    {
+        intervalId = setInterval(setImage, 500);
+    }
+
+    function stopImageSlideShow()
+    {
+        clearInterval(intervalId);
+    }
+
+    function setImage()
+    {
+        var imageSrc = document.getElementById("image").getAttribute("src");
+        var currentImageNumber = imageSrc.substring(imageSrc.lastIndexOf("/") + 1,
+                                                    imageSrc.lastIndexOf("/") + 2);
+        if (currentImageNumber == 8)
+        {
+            currentImageNumber = 0;
+        }
+        document.getElementById("image").setAttribute("src", ".../assets/img/" +
+                                          (Number(currentImageNumber) + 1) + ".jpg");
+    }
+</script> -->
+
+
+<!-- <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div> -->
 <!-- <div id="slideshow-sec"> -->
         <div id="carousel-div" class="carousel slide" data-ride="carousel" >
 
                     <div class="carousel-inner">
                         <div class="item active">
 
-              <img src="../../../assets/img/tt2.jpg" alt="" />
+              <img src="../../../assets/img/1.jpg" alt=""  height=100%; width=auto; />
 
           </div>
 
@@ -15,41 +52,40 @@
       
                    
 <br>
-<div class="below-slideshow">
          <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <div class="txt-block">
-                  <i class="fa fa-users fa-4x"></i>
+<!--                 <div class="txt-block">
+
+ -->  
+                    <div class="row grid-divider">
+                    <div class="col-sm-4">
+                      <div class="col-padding">     
+<!--                  <i class="fa fa-users fa-4x"></i>
+ -->                  <img class = "services-icon" src = "../../../assets/img/ipad.jpg" width= 90px>
                     <h4> {{ subCaptionOne }} </h4>
                     <p> {{ detailOne }} </p>
                 </div>
-            </div>
+                </div>
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <div class="txt-block">
-                <i class="fa fa-home fa-4x"></i>
+                    <div class="col-sm-4">
+                      <div class="col-padding"> 
+<!--                 <i class="fa fa-home fa-4x"></i>
+ -->                 <img class ="services-icon" src = "../../../assets/img/hand.png" width= 90px >
                   <h4> {{ subCaptionTwo }} </h4>
                   <p> {{ detailTwo }} </p>
-                      </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <div class="txt-block">
+                </div>
+                </div>
 
-<!-- <<<<<<< HEAD -->
-              
-                <i class="fa fa-gittip fa-4x"></i>
-<!-- ======= -->
-
-                <i class="fa fa-gtip fa-4x"></i>
-<!-- >>>>>>> origin/master -->
+                    <div class="col-sm-4">
+                      <div class="col-padding">             
+<!--                 <i class="fa fa-gtip fa-4x"></i>
+ -->                 <img class ="services-icon" src = "../../../assets/img/welcome.png" width= 90px >
                   <h4> {{ subCaptionThree }} </h4>
                   <p> {{ detailThree }} </p>
                 </div>
             </div>
-        </div>
-       </div>
-    </div>
+            </div>
+            </div>
+       
 
 
  <div class="row">
@@ -60,17 +96,19 @@
                 </div>
             </div>
     </div>
-      
-   
+
      <!--FOOTER SECTION END-->
       <!-- WE PUT SCRIPTS AT THE END TO LOAD PAGE FASTER-->
-
-	<!--POP-up SCRIPTS PLUGIN-->
-	<script src="js/angular.min.js"></script>
-	<!-- Include UI Bootstrap library -->
-	<script src="js/ui-bootstrap-tpls-0.14.3.min.js"></script>
-	<!-- Include Bootstrap CSS CDN link -->
-	<script src="assets/js/jquery-1.11.1.min.js"></script>
+     <script src= "angular-carousel.css"></script>
+    <script src="angular.js"></script>
+    <script src="angular-touch.js"></script>
+    <script src="angular-carousel.js"></script>
+    <!--POP-up SCRIPTS PLUGIN-->
+    <script src="js/angular.min.js"></script>
+    <!-- Include UI Bootstrap library -->
+    <script src="js/ui-bootstrap-tpls-0.14.3.min.js"></script>
+    <!-- Include Bootstrap CSS CDN link -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
     <!--BOOTSTRAP SCRIPTS PLUGIN-->
     <script src="assets/js/bootstrap.js"></script>
      <!--WOW SCRIPTS PLUGIN-->
@@ -84,7 +122,7 @@
      <!--CUSTOM SCRIPTS -->
     <script src="assets/js/custom.js"></script>
     <!-- JS script -->
-    <script src="home.js"></script>
+    <script src="home/home.js"></script>
     <!-- referencce to angular -->
     <script src= "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-	
+  

@@ -149,7 +149,14 @@ min-height: 300px;
     color:#fff;
     text-decoration:none;
 }
+
+
+.set-about-img:hover{
+  transform:rotate(15deg);
+  -webkit-transform:rotate(15deg);
+}
 .set-about-img {
     border:10px double #ffa296;
      max-height:200px;
+
 }

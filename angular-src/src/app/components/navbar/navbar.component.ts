@@ -13,13 +13,20 @@ export class NavbarComponent implements OnInit {
   			  private router: Router,
   			  private flashMessage: FlashMessagesService) { }
 
-  home = 'Home';
-  srvo = 'Service Offered';
-  fjc= 'FJC Virtual Tour';
-  tech = 'Tech Safety Tips';
-  test = 'Testimonial';
-  prepare = 'Prepare for your visit';
+  home = 'HOME';
+  srvo = 'SERVICES';
+  fjc= 'VIRTUAL TOUR';
+  tech = 'TECH SAFETY';
+  test = 'TESTIMONIALS';
+  prepare = 'PREPARE FOR YOUR VISIT';
   faq = 'FAQ';
+
+  dashboard = 'DASHBOARD';
+  profile = 'PROFILE';
+  register = 'REGISTER';
+  login = 'LOGIN';
+  escape = 'ESCAPE';
+  logout = 'LOGOUT';
 
   ngOnInit() {
   }
@@ -35,9 +42,10 @@ export class NavbarComponent implements OnInit {
   };
 
   exit(){
+    window.history.forward();
     window.open("http://weather.com", "_newtab");
     window.location.replace('http://google.com');
-    window.history.forward();
+    
   };
 }
 
