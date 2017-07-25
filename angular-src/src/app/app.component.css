@@ -19,14 +19,14 @@ h2.{
       padding-bottom:30px;
 }
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-size:20px;
    
 
 }
 
 h1,h2,h4 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'montserrat', sans-serif;
 }
 .just-txt-div {
     padding-bottom:30px;
@@ -48,7 +48,7 @@ h1,h2,h4 {
     text-align:center;
     text-transform:uppercase;
     font-size:30px;
-    font-family: 'Lobster', cursive;
+    font-family: 'montserrat', sans-serif;
 }
 .pad-set {
     padding-top:50px;

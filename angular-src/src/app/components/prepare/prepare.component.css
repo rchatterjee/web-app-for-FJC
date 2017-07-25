@@ -2,25 +2,25 @@
    GENERAL STYLES
  ============================================================ */
 body {
-    font-family: 'futura';
+    font-family: 'montserrat', sans-serif;
     font-size:30px;
   /*  text-align: justify;
     text-justify: inter-word;*/
     }
 h1{
     font-size: 25px;
-    font-family: 'verdana';
+    font-family: 'montserrat', sans-serif;
     font-variant: small-caps;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 1.1;
     text-align:center;
 }
 h2,h4 {
-    font-family: 'futura';
-}
+    font-family: 'montserrat', sans-serif;
+  }
 h3{
     font-size: 15px;
-    font-family: 'verdana';
+    font-family: 'montserrat', sans-serif;
     font-variant: small-caps;
     font-weight: 500;
     line-height: 1.1;
@@ -48,8 +48,8 @@ p{
     text-align:center;
     text-transform:uppercase;
     font-size:45px;
-    font-family: 'verdana';
-    color: white;
+    font-family: 'raleway', sans-serif;
+    color: #8972F5;
 }
 .tag-home {
     padding-top:10px;
@@ -74,8 +74,8 @@ p{
  ============================================================ */
 .below-slideshow {
     color:#fff;
-    background:#281f3f;
-    padding-bottom:1px;
+/*    background:#281f3f;
+*/    padding-bottom:1px;
     
 }
     .below-slideshow i {
@@ -150,7 +150,7 @@ min-height: 300px;
 
 }
 .set-div {
-    border:2px solid #ffa296;
+    border:2px solid #8972F5;
     border-radius:10px;
     -webkit-border-radius:10px;
     -moz-border-radius:10px;

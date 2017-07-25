@@ -1,18 +1,25 @@
 /* =============================================================
    GENERAL STYLES
  ============================================================ */
+.shadow {
+-moz-box-shadow: 0 0 30px 5px #999;
+-webkit-box-shadow: 0 0 30px 5px #999;
+}
+
+.container{
+}
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'raleway', sans-serif;
     font-size:30px;
   /*  text-align: justify;
     text-justify: inter-word;*/
     }
 h1,h2,h4 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'raleway', sans-serif;
 }
 h3{
-    font-size: 20px;
-    font-family: 'verdana';
+    font-size: 28px;
+    font-family: 'raleway', sans-serif;
     font-variant: small-caps;
     font-weight: 500;
     line-height: 1.1;
@@ -20,7 +27,7 @@ h3{
 
      }
 .just-txt-div {
-    font-family:"garamond";
+    font-family: 'raleway', sans-serif;
     font-size: 20px;
     padding-bottom:30px;
     padding-top:30px;
@@ -28,6 +35,7 @@ h3{
 }
 .just-txt-div label{
     color: #01a2a6;
+
 }
 .just-txt-div h3{
     text-align: center;
@@ -40,9 +48,9 @@ h3{
     font-weight:600;
     text-align:center;
     text-transform:uppercase;
-    font-size:75px;
-    font-family: 'verdana';
-    color: white;
+    font-size:45px;
+    font-family: 'raleway', sans-serif;
+    color: #8972F5;
 }
 .tag-home {
     padding-top:10px;
@@ -71,8 +79,8 @@ h3{
  ============================================================ */
 .below-slideshow {
     color:#fff;
-    background:#01a2a6;
-    padding-bottom:15px;
+/*    background:#01a2a6;
+*/    padding-bottom:15px;
     
 }
     .below-slideshow i {
@@ -147,10 +155,10 @@ min-height: 300px;
 
 }
 .set-div {
-    border:2px solid #ffa296;
+/*    border:2px solid #8972F5;
     border-radius:10px;
     -webkit-border-radius:10px;
-    -moz-border-radius:10px;
+    -moz-border-radius:10px;*/
 }
 .footer-sec {
     margin-top:50px;

@@ -2,10 +2,10 @@
    GENERAL STYLES
  ============================================================ */
 a{
-  color:#ffa296;
+  color:#8972F5;
 }
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'raleway', sans-serif;
     font-size:30px;
   /*  text-align: justify;
     text-justify: inter-word;*/
@@ -18,49 +18,50 @@ a:active {
     background: blue;
 }*/
 h1{
-    font-size: 25px;
-    font-family: 'verdana';
-    font-variant: small-caps;
-    font-weight: 500;
+    font-size: 35px;
+    font-family: 'raleway';
+/*    font-variant: all-caps;
+*/    font-weight: 500;
     line-height: 1.1;
     text-align:center;
 }
 h2,h4 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'raleway', sans-serif;
 }
 h3{
     font-size: 15px;
-    font-family: 'verdana';
+    font-family: 'raleway', sans-serif;
     font-variant: small-caps;
     font-weight: 500;
     line-height: 1.1;
     text-align:center;
      }
 p{
-    font-size: 18px;
+    font-size: 30px;
+    color:rgba(116,97, 124, 1);
 
 }
 .head-line {
     font-weight:600;
     text-align:center;
     text-transform:uppercase;
-    font-family: 'verdana';
+    font-family: 'raleway', sans-serif;
     font-size:45px;
-    color: white;
+    color: #8972F5;
 }
 .just-sec {
     padding-top:50px;
     padding-bottom:70px;
 }
-container.shadow{
-     box-shadow: 0 0 30px black;
 
-}
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  box-shadow: 4 4px black;
+
 } 
 
 
@@ -69,8 +70,8 @@ container.shadow{
  ============================================================ */
 .below-slideshow {
     color:#fff;
-    background:#281f3f;
-    padding-bottom:1px;
+/*    background:#281f3f;
+*/    padding-bottom:1px;
     
 }
     .below-slideshow i {
@@ -93,6 +94,7 @@ container.shadow{
     }
     .below-slideshow p {
         padding-right:30px;
+        color:rgba(15, 15, 15, 0.66);
     }
 .tag-home {
     padding-top:10px;
@@ -100,7 +102,7 @@ container.shadow{
     font-size:40px;
     text-align:center;
     line-height:45px;
-    color: #666666;
+    color: rgba(15, 15, 15, 0.66);
 }
 
 .parallax-like {
@@ -145,7 +147,7 @@ min-height: 300px;
 
 }
 .set-div {
-    border:2px solid #ffa296;
+    border:2px dashed #8972F5;
     border-radius:10px;
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
@@ -166,7 +168,7 @@ min-height: 300px;
     box-shadow: 0 0px 0px rgba(0,0,0,0);
 }
 .social-div a,a:hover{
-    color: purple;
+    color: rgba(116,97, 124, 1);
     text-decoration:none;
 }
 .set-about-img {
@@ -178,11 +180,9 @@ min-height: 300px;
     padding-top:30px;
 }
 .just-txt-div label{
-    color: #01a2a6;
 }
 .just-txt-div h3{
     text-align: center;
-    color: #01a2a6
 }
 .just-txt-div p {
     padding:10px;

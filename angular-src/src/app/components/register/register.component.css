@@ -2,13 +2,13 @@
    GENERAL STYLES
  ============================================================ */
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-size:20px;
   /*  text-align: justify;
     text-justify: inter-word;*/
 	}
   h2{
-    font-family: verdana;
+    font-family: 'montserrat', sans-serif;
     color:white;
     font-size :35px;
     text-shadow: 10px;
@@ -23,7 +23,7 @@ body {
     font-weight:400;
     text-align:center;
     font-size:35px;
-    font-family: 'verdana';
+    font-family: 'montserrat', sans-serif;
     color: white;
 }
 .tag-home {
@@ -49,7 +49,7 @@ body {
  ============================================================ */
 .below-slideshow {
     color:#fff;
-    background:#281f3f;
+    background:#8972F5;
     padding-bottom:1px;
     
 }
@@ -225,7 +225,7 @@ min-height: 300px;
 }
 h3{
 	font-size: 25px;
-	font-family: 'verdana';
+	font-family: 'montserrat', sans-serif;
 	font-variant: small-caps;
 	    font-weight: 500;
     line-height: 1.1

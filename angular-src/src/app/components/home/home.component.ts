@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
 
-	caption= 'FIGHT AGAINST VIOLENCE';
+	caption= 'SERVICES';
 
 	subCaptionOne = 'YOUR VIRTUAL ALLY';
 	detailOne = 'At the click of a button, get answers to all of your questions, tips on how to safely use technology, and information on the resources available to you.';
