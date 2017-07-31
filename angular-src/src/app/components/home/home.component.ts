@@ -22,10 +22,11 @@ export class HomeComponent implements OnInit {
 	detailThree = 'Our door is always open for you,no appointment necessary. When you feel ready, simply walk in anytime, Monday - Friday, between 9:00 a.m. - 5:00 p.m.';
 
 
-
   constructor() { }
 
   ngOnInit() {
   }
+
+
 
 }

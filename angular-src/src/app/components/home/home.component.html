@@ -1,42 +1,35 @@
-<!-- <img id="image" src="/Images/1.jpg" style="width: 150px; height: 150px" />
-<br />
-<input type="button" value="Start Slide Show" (click)="startImageSlideShow()" />
-<input type="button" value="Stop Slide Show" (click)="stopImageSlideShow()" />
-<script type="text/javascript">
-    var intervalId;
-
-    function startImageSlideShow()
-    {
-        intervalId = setInterval(setImage, 500);
-    }
-
-    function stopImageSlideShow()
-    {
-        clearInterval(intervalId);
-    }
-
-    function setImage()
-    {
-        var imageSrc = document.getElementById("image").getAttribute("src");
-        var currentImageNumber = imageSrc.substring(imageSrc.lastIndexOf("/") + 1,
-                                                    imageSrc.lastIndexOf("/") + 2);
-        if (currentImageNumber == 8)
-        {
-            currentImageNumber = 0;
-        }
-        document.getElementById("image").setAttribute("src", ".../assets/img/" +
-                                          (Number(currentImageNumber) + 1) + ".jpg");
-    }
-</script> -->
+<div class="fling-minislide">
+  <img src="../../../assets/img/tour/extra/frontDesk.jpg" alt="Slide 4" style='height: 100%; width: 100%; object-fit: contain'/>
+  <img src="../../../assets/img/tour/brooklyn.jpg" alt="Slide 3" style='height: 100%; width: 100%; object-fit: contain'/>
+  <img src="../../../assets/img/tour/queens.jpg" alt="Slide 2" style='height: 100%; width: 100%; object-fit: contain'/>
+  <img src="../../../assets/img/tour/staten_island.jpg" alt="Slide 1" style='height: 100%; width: 100%; object-fit: contain' />
+</div>
+ 
 
 
-<!-- <div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div> -->
-<!-- <div id="slideshow-sec"> -->
-        <div id="carousel-div" class="carousel slide" data-ride="carousel" >
+<!-- 
+<div class="slider-holder">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <div class="image-holder">
+            <img src="../../../assets/img/1.jpg" class="slider-image-1" />
+            <img src="../../../assets/img/1.jpg" class="slider-image-2" />
+            <img src="../../../assets/img/1.jpg" class="slider-image-3" />
+        </div>
+        <div class="button-holder">
+            <a href="#slider-image-1" class="slider-change"></a>
+            <a href="#slider-image-2" class="slider-change"></a>
+            <a href="#slider-image-3" class="slider-change"></a>
+        </div>
+    </div> -->
+
+<!--       
+
+
+
+
+  <div id="carousel-div" class="carousel slide" data-ride="carousel" >
 
                     <div class="carousel-inner">
                         <div class="item active">
@@ -46,7 +39,7 @@
           </div>
 
             </div>
-            </div>
+            </div> -->
             <h1> {{ caption }} </h1>
           
       
