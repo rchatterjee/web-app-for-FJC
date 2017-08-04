@@ -53,6 +53,7 @@ export const appRoutes: Routes = [
   {path:'brooklyn_page', component: BrooklynPageComponent},
   {path:'manhattan_page', component: ManhattanPageComponent},
   {path:'queens_page', component: QueensPageComponent},
+  {path: 'staten_page', component: StatenPageComponent},
 
 
 

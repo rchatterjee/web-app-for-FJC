@@ -24,14 +24,26 @@ export class TourComponent implements OnInit {
      });
   			   }
 
-           navigate() {
+           navigateBronx() {
               this.router.navigate(["bronx_page"])
-              this.router.navigate(["brooklyn_page"])
-              this.router.navigate(["queens_page"])
-              this.router.navigate(["manhattan_page"])
-
-
            }
+            
+            navigateBrooklyn() {
+              this.router.navigate(["brooklyn_page"])
+            }
+
+            navigateManhattan() {
+              this.router.navigate(["manhattan_page"])
+            }
+
+            navigateQueens() {
+              this.router.navigate(["queens_page"])
+            }
+
+            navigateStaten() {
+              this.router.navigate(["staten_page"])
+            }
+
 
   ngOnInit() {}
 

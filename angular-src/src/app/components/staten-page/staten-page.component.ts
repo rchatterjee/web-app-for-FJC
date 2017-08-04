@@ -9,7 +9,7 @@ import { Location } from '@angular/common';
 })
 export class StatenPageComponent implements OnInit {
 
-  constructor( private location: Location  ) { }
+  constructor( private location: Location ) { }
 
   goBack(){
   		this.location.back();
