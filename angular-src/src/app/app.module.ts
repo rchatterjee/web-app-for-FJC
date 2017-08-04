@@ -10,7 +10,16 @@ import {AuthService} from './services/auth.service';
 import {FlashMessagesModule} from 'angular2-flash-messages';
 import {AuthGuard} from './guards/auth.guard';
 
+import { AppComponents, AppRoutes } from "./app.routing";
 import { AppComponent } from './app.component';
+import { TourComponent } from './components/tour/tour.component';
+import { BronxPageComponent } from './components/bronx-page/bronx-page.component';
+import { BrooklynPageComponent } from './components/brooklyn-page/brooklyn-page.component';
+import { ManhattanPageComponent } from './components/manhattan-page/manhattan-page.component';
+import { QueensPageComponent } from './components/queens-page/queens-page.component';
+import { StatenPageComponent } from './components/staten-page/staten-page.component';
+
+
 
 
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -24,8 +33,6 @@ import { TestimonialComponent } from './components/testimonial/testimonial.compo
 import { TipsComponent } from './components/tips/tips.component';
 import { PrepareComponent } from './components/prepare/prepare.component';
 import { FaqComponent } from './components/faq/faq.component';
-import { TourComponent } from './components/tour/tour.component';
-
 
 
 export const appRoutes: Routes = [
@@ -39,20 +46,35 @@ export const appRoutes: Routes = [
   {path:'tips', component: TipsComponent},
   {path:'prepare', component: PrepareComponent},
   {path:'faq', component: FaqComponent},
+
   {path:'tour', component: TourComponent},
+  {path:'bronx_page', component: BronxPageComponent},
+
+  {path:'brooklyn_page', component: BrooklynPageComponent},
+  {path:'manhattan_page', component: ManhattanPageComponent},
+  {path:'queens_page', component: QueensPageComponent},
+
+
 
 ]
+
+
+ 
+
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    RouterModule,
     RouterModule.forRoot(appRoutes),
-    FlashMessagesModule
+    FlashMessagesModule,
   ],
   declarations: [
     AppComponent,
+    AppComponents,
+
     NavbarComponent,
     LoginComponent,
     RegisterComponent,
@@ -64,7 +86,12 @@ export const appRoutes: Routes = [
     TipsComponent,
     PrepareComponent,
     FaqComponent,
-    TourComponent
+    TourComponent,
+    BronxPageComponent,
+    BrooklynPageComponent,
+    QueensPageComponent,
+    ManhattanPageComponent,
+    StatenPageComponent
     
   ],
  
