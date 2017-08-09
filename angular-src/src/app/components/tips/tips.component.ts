@@ -9,7 +9,7 @@ export class TipsComponent implements OnInit {
 
 	title = 'Tech Safety Tips';
 
-	subtitle = 'Learn how to use your tech Safely';
+	subtitle = 'Learn how to use your tech safely';
 
 	internet = 'INTERNET';
 	info_1 = 'Clear your browsing history so you cannot be tracked.';

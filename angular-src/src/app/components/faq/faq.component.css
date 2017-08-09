@@ -1,12 +1,30 @@
 /* =============================================================
    GENERAL STYLES
  ============================================================ */
-.shadow {
+/*.shadow {
 -moz-box-shadow: 0 0 30px 5px #999;
 -webkit-box-shadow: 0 0 30px 5px #999;
+}*/
+
+.button{
+  background-color:white;
+  width:800px;
+  margin:auto;
+
+}
+.Qcontainer{
+    margin:auto;
+    width: 800px;
+    border: 5px solid #8972F5;
+    padding-bottom: 40px;
 }
 
 .container{
+      background-color:#8972F5;
+      width:90%;
+      margin: auto;
+      width:800px;
+
 }
 body {
     font-family: 'raleway', sans-serif;
@@ -14,16 +32,19 @@ body {
   /*  text-align: justify;
     text-justify: inter-word;*/
     }
-h1,h2,h4 {
+h2,h4 {
     font-family: 'raleway', sans-serif;
 }
 h3{
-    font-size: 28px;
-    font-family: 'raleway', sans-serif;
+    font-size: 38px;
+    font-family: 'raleway',thin sans-serif,;
     font-variant: small-caps;
-    font-weight: 500;
-    line-height: 1.1;
+/*    font-weight: 100;
+*/    line-height: 1.1;
     text-align:center;
+    color:#8972F5;
+    padding-top:30px;
+    border-radius: 2px;
 
      }
 .just-txt-div {
@@ -38,13 +59,18 @@ h3{
 
 }
 .just-txt-div h3{
+        font-family: 'raleway',thin sans-serif,;
+
     text-align: center;
-    color: #281f3f;
+    color:white;
 }
 .just-txt-div p {
     padding:10px;
+    color:white;
+        font-family: 'raleway',thin sans-serif,;
+
 }
-.head-line {
+h1{
     font-weight:600;
     text-align:center;
     text-transform:uppercase;
@@ -64,10 +90,8 @@ h3{
     padding-top:50px;
     padding-bottom:70px;
 }
-.paragraph_style{
-  font-size: 15pt;
-}
 .container {
+  margin-top: 70px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -103,6 +127,7 @@ h3{
     }
     .below-slideshow p {
         padding-right:30px;
+        color:white;
     }
 .tag-home {
     padding-top:50px;

@@ -27,8 +27,4 @@ export const AppComponents: any = [
     QueensPageComponent,
     ManhattanPageComponent,
     StatenPageComponent,
-
-
-
-
 ];

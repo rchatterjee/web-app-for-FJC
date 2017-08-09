@@ -4,16 +4,17 @@
  h1{
     font-size: 25px;
     font-family: 'raleway', sans-serif;
-    font-variant: small-caps;
     font-weight: 500;
     line-height: 1.1;
     text-align:center;
+    color:rgba(116,97, 124, 1);
+
 }
 h3{
     font-size: 15px;
     font-family: 'raleway', sans-serif;
-    font-variant: small-caps;
-    font-weight: 500;
+/*    font-variant: small-caps;
+*/    font-weight: 500;
     line-height: 1.1;
     text-align:center;
      }
@@ -42,6 +43,13 @@ h3{
   margin-left: auto;
 }
 
+.box{
+  margin-left: -10px;
+  width:100%;
+  height:180px;
+  background:#663366;
+  display: block;
+}
 
 
 /* =============================================================
@@ -75,13 +83,14 @@ h3{
         padding-right:30px;
     }
 .tag-home {
-    padding-top:50px;
-    padding-bottom:30px;
+    padding-top:10px;
+    padding-bottom:40px;
     font-size:40px;
     text-align:center;
     line-height:45px;
-    color: #666666;
-
+    color:rgba(116,97, 124, 1);
+/*    font-variant: small-caps;
+*/
 }
 .parallax-like {
 margin-top: 20px;
@@ -157,6 +166,7 @@ min-height: 300px;
 }
 .set-about-img {
     border:10px double #b792a8;
-     max-height:200px;
+     max-height:150px;
+     margin-left: 49px;
 
 }

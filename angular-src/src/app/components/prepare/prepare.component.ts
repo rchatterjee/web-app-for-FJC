@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PrepareComponent implements OnInit {
 
 	headline = 'How to Prepare for your FJC Visit';
-	subtitle = 'Tips on preparation you can make before visiting a FJC';
+	subtitle = 'Tips on preparation you can make before visiting a Family Justice Center';
 
 	titleOne = 'Prepare your documents';
 	paragraphOne = 'Gather all the documents that you need.';

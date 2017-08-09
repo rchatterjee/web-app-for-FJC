@@ -1,88 +1,76 @@
-<div class= shadow>
-<div class="container " >
-             <div class="row">
-            <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-12 set-div">
-                <div class="just-txt-div text-align">
-                    <h3><strong> {{ titleOne }} </strong> </h3>
-                    <p>  {{ boxOne }} <br /><br /></p>
+ <h1 class="head-line"> FAQ</h1>
 
+<!--  <div class="Qcontainer " > -->
+ 
+<button style="margin:auto; display:block; padding-left:30px; background-color:white; padding-bottom: 30px;
+ border: 5px solid #8972F5;width:800px" (click)="showHideOne = !showHideOne"> <h3><strong> {{ titleOne }} </strong> </h3>
+</button><!-- </div> -->
+      <div class ="container" *ngIf="showHideOne">
+                <div class="just-txt-div text-align">
+                    <br>
+                    <br>
+                     <p>  {{ boxOne }} <br /><br /></p>
+                    </div>
                      <!-- beautiful button -->
                       <!-- <a class="btn btn-info btn-lg" href="#">Read More Here</a> -->
                     <!-- &nbsp;&nbsp; -->
                     <!-- <a class="btn btn-success btn-lg" href="#">Download Now </a> -->
-                </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
-                </div>
-            </div>
-         </div>
-         </div>
-          <br>
-           <br>
-            <br>
-                   
-
-         <div class="container " >
-             <div class="row">
-            <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-12 set-div">
+      <button style="margin:auto; display:block; padding-left:30px; background-color:white; padding-bottom: 30px;
+        border: 5px solid #8972F5; width:800px" (click)="showHideTwo = !showHideTwo"> <h3><strong> {{ titleTwo }} </strong> </h3>
+        </button><!-- </div> -->
+      <div class ="container" *ngIf="showHideTwo">
                 <div class="just-txt-div text-align">
-                    <h3><strong> {{ titleTwo }} </strong> </h3>
-                    <p> {{ boxTwo }} <br /><br /></p>
-
+                    <br>
+                    <br>
+                     <p>  {{ boxTwo }} <br /><br /></p>
+                    </div>
                      <!-- beautiful button -->
                       <!-- <a class="btn btn-info btn-lg" href="#">Read More Here</a> -->
                     <!-- &nbsp;&nbsp; -->
                     <!-- <a class="btn btn-success btn-lg" href="#">Download Now </a> -->
-                </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
-                </div>
-            </div>
-         </div>
-         <br>
-           <br>
-            <br>
-
-          <div class="container " >
-             <div class="row">
-            <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-12 set-div">
+        <button style="margin:auto; display:block; padding-left:30px; background-color:white; padding-bottom: 30px;
+        border: 5px solid #8972F5; width:800px" (click)="showHideThree = !showHideThree"> <h3><strong> {{ titleThree }} </strong> </h3>
+        </button><!-- </div> -->
+      <div class ="container" *ngIf="showHideThree">
                 <div class="just-txt-div text-align">
-                    <h3><strong> {{ titleThree }} </strong> </h3>
-                     <p> {{ boxThree }} <br /><br /></p>
-                  <p> {{ boxThree_2 }} <br /><br /></p>
-                </div>
+                    <br>
+                    <br>
+                     <p>  {{ boxThree }} <br /><br /></p>
+                    </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
-                </div>
-            </div>
-         </div>
-         <br>
-           <br>
-            <br>
-
-          <div class="container " >
-             <div class="row">
-            <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-12 set-div">
+        <button style="margin:auto; display:block; padding-left:30px; background-color:white; padding-bottom: 30px;
+        border: 5px solid #8972F5;width:800px" (click)="showHideFour = !showHideFour"> <h3><strong> {{ titleFour }} </strong> </h3>
+        </button><!-- </div> -->
+      <div class ="container" *ngIf="showHideFour">
                 <div class="just-txt-div text-align">
-                    <h3><strong> {{ titleFour }} </strong> </h3>
-                     <p><br /> {{ boxFour }} <br /></p>
+                    <br>
+                    <br>
+                     <p>  {{ boxFour }} <br /><br /></p>
+                    </div>
+                    
 
-                     <!-- beautiful button -->
-                      <!-- <a class="btn btn-info btn-lg" href="#">Read More Here</a> -->
-                    <!-- &nbsp;&nbsp; -->
-                    <!-- <a class="btn btn-success btn-lg" href="#">Download Now </a> -->
-                </div>
-                </div>
-            </div>
-         </div>
 
- <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <hr />
-                <div style="text-align:right;padding:5px;">
-                    &copy;2017  Cornell Tech <a href="http://www.binarytheme.com/" style="color:#fff;" target="_blank" > </a>
-                </div>
-            </div>
-    </div>
-     <!--FOOTER SECTION END-->
-      <!-- WE PUT SCRIPTS AT THE END TO LOAD PAGE FASTER-->
+
 
   <!--CORE SCRIPTS PLUGIN-->
     <script src="assets/js/jquery-1.11.1.min.js"></script>
@@ -98,3 +86,4 @@
     <script src="assets/js/jquery.mixitup.min.js"></script>
      <!--CUSTOM SCRIPTS -->
     <script src="assets/js/custom.js"></script>
+

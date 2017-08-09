@@ -19,14 +19,14 @@ h2.{
       padding-bottom:30px;
 }
 body {
-    font-family: 'montserrat', sans-serif;
+    font-family: 'raleway', sans-serif;
     font-size:20px;
    
 
 }
 
 h1,h2,h4 {
-    font-family: 'montserrat', sans-serif;
+    font-family: 'raleway';
 }
 .just-txt-div {
     padding-bottom:30px;
@@ -48,7 +48,7 @@ h1,h2,h4 {
     text-align:center;
     text-transform:uppercase;
     font-size:30px;
-    font-family: 'montserrat', sans-serif;
+    font-family: 'raleway', sans-serif;
 }
 .pad-set {
     padding-top:50px;
@@ -363,6 +363,7 @@ ul#filters {
 h1{
   font-size: 30px;
   color: white;
+  font-family: 'raleway';
 }
  body {
   margin: 0;
