@@ -10,6 +10,8 @@
   background-color:white;
   width:800px;
   margin:auto;
+      padding-top: 20px;
+
 
 }
 .Qcontainer{
@@ -43,8 +45,10 @@ h3{
 */    line-height: 1.1;
     text-align:center;
     color:#8972F5;
-    padding-top:30px;
+    padding-top:17px;
     border-radius: 2px;
+    letter-spacing: 5px;
+    
 
      }
 .just-txt-div {
@@ -77,6 +81,9 @@ h1{
     font-size:45px;
     font-family: 'raleway', sans-serif;
     color: #8972F5;
+    letter-spacing: 7px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .tag-home {
     padding-top:10px;

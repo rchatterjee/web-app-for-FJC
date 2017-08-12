@@ -1,6 +1,13 @@
 /* =============================================================
    GENERAL STYLES
  ============================================================ */
+/* subtitles container*/
+.Scontainer{
+    margin:auto;
+    width: 800px;
+/*    background-color:  #8972F5;
+*/    padding-top: 40px;  
+}
 .Qcontainer{
     margin:auto;
     width: 800px;
@@ -58,6 +65,9 @@ p{
     font-size:45px;
     font-family: 'raleway', sans-serif;
     color: #8972F5;
+    letter-spacing: 7px;
+    padding-top: 20px;
+
 }
 .tag-home {
     padding-top:10px;

@@ -13,6 +13,13 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class TourComponent implements OnInit {
 
+
+title= 'Family Justice Centers';
+subtitle = 'Family Justice Centers (FJC) provide clients access to civil, criminal and social services all under one room.';
+subtitle_ = 'to see a list of all of the services offered.';
+linkSubtitle = 'Click here';
+
+
   constructor(private authService:AuthService,
   			  private router: Router,
   			  private flashMessage: FlashMessagesService,
