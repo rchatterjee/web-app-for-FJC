@@ -14,7 +14,8 @@ h2{
     font-size: 15px;
     text-align:center;
     margin-right: -50px;
-    padding-bottom: 95px;
+   /* padding-bottom: 95px;*/
+
     color:white;
 }
 h3{
@@ -30,6 +31,10 @@ body {
 }
 p{
     font-style: 'raleway', sans-serif;
+        margin-left: 110px;
+        width :50%;
+        color:#E2E4F4;
+
 }
 
 .head-line {
